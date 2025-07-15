@@ -3,7 +3,6 @@ import 'dotenv/config'
 import transporter from './nodemailer/mailer.js'
 
 const app = express()
-
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
